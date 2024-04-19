@@ -4,16 +4,16 @@ h1{
     text-align: center;
 
 }
-
-nav{
-    text-align: center;
 body {
     box-sizing: border-box;
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
-    background-color:beige ;
+    background-color:white ;
+}
+nav{
+    text-align: center;
 }
 main{
     display: flex;
@@ -25,7 +25,7 @@ main{
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
-    background-color:beige;
+    background-color:white;
 }
 
 
@@ -54,3 +54,40 @@ main{
     background: #1277dc;
     text-decoration: none;
   }
+  
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.productos li:hover{
+    border-color:#4aef63;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 25px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
